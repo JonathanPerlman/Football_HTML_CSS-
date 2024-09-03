@@ -1,0 +1,29 @@
+#Galleryfootball {
+    width: 600px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+#ViewPlayers,
+#form {
+    background-color: lightgray;
+    color: black;
+    flex: 1;
+    text-align: center;
+}
+
+#form {
+    margin-left: 10px; 
+}

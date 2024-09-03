@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+a{
+        display: flex;
+        width: 190px;
+        margin: 20px auto 0;
+}
